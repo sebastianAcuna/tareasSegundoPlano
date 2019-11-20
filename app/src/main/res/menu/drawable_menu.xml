@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/asignaturas_nm"
+            android:title="Asignaturas"
+            android:icon="@drawable/draw_men"/>
+        <item
+            android:id="@+id/estudiantes_nm"
+            android:title="Estudiantes"
+            android:icon="@drawable/draw_men"
+            />
+        <item
+            android:id="@+id/tareas_nm"
+            android:title="Tareas"
+            android:icon="@drawable/draw_men"
+            />
+    </group>
+
+</menu>

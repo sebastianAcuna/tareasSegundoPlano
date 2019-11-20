@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:elevation="16dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/asignatura_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matemáticas"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"/>
+        <TextView
+            android:id="@+id/cod_rv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/asignatura_rv"
+            android:text="Código:"
+            />
+        <TextView
+            android:id="@+id/codigo_asignatura_rv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cod_rv"
+            android:layout_below="@id/asignatura_rv"
+            android:text="8"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
